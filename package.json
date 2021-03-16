@@ -1,0 +1,17 @@
+{
+  "name": "fossahalla-bot",
+  "version": "1.0.0",
+  "description": "the vinkingest bot of all",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "rp199",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "simple-git": "^2.36.2"
+  }
+}
