@@ -1,4 +1,4 @@
-export default  {
+module.exports = {
     DISCORD_TOKEN: process.env.DISCORD_TOKEN,
     WORLD_NAME: process.env.WORLD_NAME,
     CHANNEL_NAME: process.env.CHANNEL_NAME,

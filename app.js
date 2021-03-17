@@ -1,6 +1,5 @@
-import env from "./env.js";
-import git from "./git.js"
-
+const env = require("./env.js")
+const git = require("./git.js")
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
