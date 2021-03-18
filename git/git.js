@@ -1,4 +1,4 @@
-const env = require('./env.js')
+const env = require('../config/env.js');
 const git = require('simple-git')(env.REPO_DIR);
 
 const gitCommit = (git, commitMessage) => {

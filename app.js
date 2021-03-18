@@ -1,5 +1,5 @@
-const env = require("./env.js")
-const git = require("./git.js")
+const env = require("./config/env.js");
+const git = require("./git/git.js");
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
